@@ -14,7 +14,7 @@ int main(void)
 	/*ポインタを使って配列の内容を表示する。書き換え版 */
 	p = array;
 	for (i = 0; i < 5; i++) {
-		printf("%d\n", *(p + i));
+		printf("%d\n", p[i]);
 	}
 
 	return 0;
